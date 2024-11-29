@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0%;
+    overflow-x: hidden;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(21, 45, 90);
+}
+
+.nav-item{
+    /* font-weight: bold; */
+    font-size: 20px;
+    padding-right: 10px;
+    
+}
+
+.navbar-brand{
+    padding-left: 100px;
+}
+
+/* .nav-item > .nav-link :hover {
+    background-color: rgba(68, 0, 255, .7);
+} */
+
+.sa{
+    color: rgb(255, 0, 255); 
+}
+
+.home {
+    width: 100vw;
+    height: 680px;
+    background: rgb(41,74,134);
+}
+
+.home > .name{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 300px;
+    z-index: 2;
+    margin-left: 300px;
+    color: white;
+}
+
+.name2{
+    text-align: right;
+    color: rgb(255, 0, 255);
+}
+
+.me{
+    top: 80px;
+    right: 250px;
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    z-index: 1;
+}
+
+.bg{
+    top: 90px;
+    right: 200px;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    z-index: 0;
+}
+
+
+
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:400px;
+    background-color: rgb(224, 224, 255);
+}
+
+.feature{
+    padding: 100px;
+}
+
+.offers-inf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.offers-inf2{
+    text-align: center;
+}
+
+.about{
+    padding-top: 80px;
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 50px;
+    align-items: center;
+    background: rgb(41,74,134);
+
+}
+
+
+.about-main{
+    position: absolute;
+    top: 1100x;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    
+}
+
+.about-wrapper{
+    margin-top: 100px;
+    width: 800px;
+}
+
+.about1{
+    border-radius: 16px;
+    padding: 9px;
+    background-color: rgb(237, 90, 122);
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about2{
+    padding: 9px;
+    border-radius: 16px;
+    background-color: rgb(41, 74, 134);
+    color: white;
+}
+
+
+.projct{
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(41,74,134);
+    padding-bottom: 50px;
+    
+}
+
+.projct-h{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    
+    font-size: 80px;
+}
+
+.col{
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+ 
+}
+
+.project-inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.329);
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    opacity: 0;
+}
+
+.project-inf:hover{
+    transition: all .2s ease-in-out;
+    opacity: 1;
+}
+
+
+.footer{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 45, 90);
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media only screen and (max-width: 1143px) {
+
+
+
+    body{
+        width: 100%;
+        
+    }
+
+    .container-fluid{
+        flex-wrap: wrap;
+    }
+
+     .navbar{
+        background-color: rgb(21, 45, 90);
+        width: 100%;
+       
+    }
+
+    .me{
+        top: 180px;
+        width: 400px;
+        height: 500px;
+        right: 40px;
+    }
+
+    .bg{
+        top: 250px;
+        right: 40px;
+        width:400px;
+        height: 400px;
+       
+    }
+
+    .home > .name{
+        font-size: 40px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    
+    .name2{
+        color: black;
+    }
+
+    .offers{
+        width: 100%;
+        height: 950px;
+        flex-direction: column;
+       
+    }
+   
+    .feature{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+     .about-wrapper{
+        width:100%;
+    }
+}
