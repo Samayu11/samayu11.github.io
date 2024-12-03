@@ -221,7 +221,8 @@ html{
 
     body{
         width: 100%;
-        
+        margin: 0;
+        padding: 0;
     }
 
     .container-fluid{
@@ -279,5 +280,16 @@ html{
 
      .about-wrapper{
         width:100%;
+    }
+
+    .project-inf{
+        width: 240px;
+        height: 150px;
+    }
+
+    .project-img{
+        width: 240px;
+        height: 150px;
+        font-size: 20px;
     }
 }
