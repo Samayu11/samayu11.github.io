@@ -11,6 +11,7 @@ html{
 
 .navbar{
     width: 100%;
+    z-index: 999;
     background-color: rgb(21, 45, 90);
 }
 
@@ -24,6 +25,7 @@ html{
 .navbar-brand{
     padding-left: 100px;
 }
+
 
 /* .nav-item > .nav-link :hover {
     background-color: rgba(68, 0, 255, .7);
